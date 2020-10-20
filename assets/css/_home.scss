@@ -1,0 +1,205 @@
+.wrapper-header {
+    background: radial-gradient($white, $pink);
+}
+
+
+/*--------Navigation--------*/
+
+.navigation {
+    ul {
+        li {
+            a {
+                color: $gray;
+                font-size: 16px;
+                margin: 0 10px;
+                font-weight: 500;
+                &:hover {
+                    color: $gray-1;
+                }
+            }
+        }
+    }
+}
+
+
+/*--------Header--------*/
+
+.header {
+    // width: 100%;
+    img {
+        margin-top: 30px;
+    }
+    h1 {
+        font-size: 50px;
+        font-weight: bold;
+        margin: 100px 0 20px;
+    }
+    p {
+        color: $gray;
+    }
+}
+
+
+/* Galery */
+
+.galery {
+    margin: 100px auto;
+    img {
+        width: 300px;
+        height: 250px;
+    }
+}
+
+
+/* Product*/
+
+.product {
+    margin: 100px 0;
+    .col-md-3 {
+        transition: transform 0.5s;
+        &:hover {
+            transform: translateY(-5px);
+        }
+    }
+    .mb {
+        margin: 100px 0;
+    }
+    .horizon {
+        content: '';
+        border: 2px solid red;
+        width: 100px;
+        border-radius: 15%;
+        height: 3px;
+        position: absolute;
+        top: 40px;
+        left: 27%;
+    }
+    img {
+        width: 250px;
+        height: 200px;
+    }
+    h6 {
+        margin: 5px 0;
+        color: $gray;
+    }
+    .rating {
+        i {
+            color: $orange;
+        }
+    }
+    p {
+        color: $gray;
+        font-size: 14px;
+    }
+}
+
+
+/*----------Introduce Brand------------*/
+
+.intro-brand {
+    margin: 80px 0;
+    background: radial-gradient($white, $pink);
+    img {
+        height: 100%;
+        padding: 50px 0;
+    }
+    h1 {
+        font-size: 50px;
+        font-weight: bold;
+        margin: 30px 0 30px;
+    }
+    h6 {
+        margin-top: 80px;
+        color: $gray
+    }
+    p {
+        font-size: 14px;
+        color: $gray
+    }
+}
+
+
+/*----------Testimonial------------*/
+
+.testimonial {
+    margin: 100px 0;
+    text-align: center;
+    .col-md-4 {
+        margin: -13px;
+        .testimonial-content {
+            width: 310px;
+            height: 340px;
+            padding: 10px 30px;
+            margin-bottom: 40px;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+            .fa.fa-quote-left {
+                margin: 45px 0 24px;
+                color: $orange;
+            }
+            p {
+                font-size: 13px;
+                color: $gray-1;
+            }
+            .rating {
+                color: $orange;
+            }
+            img {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                margin-bottom: 10px;
+            }
+            h6 {
+                color: $gray;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+
+/*----------Brand Logo------------*/
+
+.brand-logo {
+    margin-bottom: 100px;
+    img {
+        width: 150px;
+    }
+}
+
+
+/*----------Footer------------*/
+
+footer {
+    text-align: center;
+    background: $black;
+    color: $gray-2;
+    padding: 80px 0 0;
+    h6 {
+        color: $white;
+        margin-bottom: 36px;
+        font-weight: bold;
+    }
+    ul {
+        list-style: none;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    p {
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    hr {
+        width: 100%;
+        border: none;
+        height: 1px;
+        background: $gray-3;
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+    .copyright {
+        margin: 20px auto;
+    }
+}

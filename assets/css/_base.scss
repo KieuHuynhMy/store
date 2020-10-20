@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $poppins;
+}
+
+h4 {
+    font-weight: 700;
+    color: $gray;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    position: relative;
+}
+
+.btn {
+    display: inline-block;
+    background: $orange;
+    color: $white;
+    border-radius: 20rem;
+    margin: 30px auto 100px;
+    padding: 8px 30px;
+    &:hover {
+        background: $orange-1;
+        color: $white;
+    }
+}

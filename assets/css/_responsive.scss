@@ -1,0 +1,71 @@
+@media screen and (max-width: 800px) {
+    html,
+    body {
+        // width: auto !important;
+        width: 100%;
+        overflow-x: hidden !important;
+    }
+    .navigation {
+        overflow: hidden;
+        .col-12 {
+            margin: 0;
+            padding: 0;
+            nav {
+                margin: 0;
+                padding: 0;
+                .navbar-brand {
+                    margin-left: 12px;
+                }
+                .fa.fa-bars {
+                    font-size: 30px;
+                }
+                .navbar-collapse {
+                    background: $black;
+                    ul {
+                        li {
+                            a {
+                                color: $white;
+                                float: right;
+                                margin: 0 15px 0 0px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .header {
+        text-align: center;
+        img {
+            height: 300px;
+            margin-top: -54px;
+        }
+    }
+    .intro-brand {
+        text-align: center;
+    }
+    .brand-logo {
+        margin: 0;
+        .col-sm-12 {
+            margin-bottom: 10px;
+        }
+    }
+    .galery,
+    .product,
+    .brand-logo {
+        .col-sm-12 {
+            text-align: center;
+        }
+    }
+    footer {
+        h6 {
+            margin-bottom: 15px;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        .logo-footer {
+            margin-top: 20px;
+        }
+    }
+}
